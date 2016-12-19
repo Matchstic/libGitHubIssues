@@ -40,8 +40,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "BSD"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "BSD", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,7 +62,6 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
   s.platform     = :ios, "8.0"
 
 
@@ -84,7 +82,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GitHub Issues/*.{h,m}"
+  s.source_files  = "libGitHubIssues/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,7 +95,7 @@ Pod::Spec.new do |s|
 
   s.resource_bundles = {
     'libGitHubIssues' => [
-        'GitHub Issues/Supporting Files/*.png'
+        'libGitHubIssues/Supporting Files/*.png'
     ]
   }
 
