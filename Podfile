@@ -11,3 +11,7 @@ target 'libGitHubIssues-(Jailbreak)' do
   pod "RFMarkdownTextView", "~> 1.4"
   pod 'UITextView+Placeholder', '~> 1.2'
 end
+
+target 'libGitHubIssues Demo' do
+  pod 'libGitHubIssues', :path => './'
+end
