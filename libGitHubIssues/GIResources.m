@@ -8,8 +8,8 @@
 
 #import "GIResources.h"
 ///#import "GIKeychainWrapper.h"
-#import <OctoKit.h>
-#import <SAMKeychain.h>
+#import <OctoKit/OctoKit.h>
+#import <SAMKeychain/SAMKeychain.h>
 
 static OCTClient *sharedClient;
 static OCTClient *sharedUnauthenticatedClient;

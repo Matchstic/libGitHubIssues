@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OCTObject.h"
+#import <OctoKit/OctoKit.h>
 
 // A single comment on an issue.
 @interface OCTIssueCommentNew : OCTObject
