@@ -7,9 +7,9 @@
 //
 
 #import "GICommentComposeController.h"
-#import <RFKeyboardToolbar/RFKeyboardToolbar.h>
-#import <UITextView+Placeholder/UITextView+Placeholder.h>
-#import <OctoKit/OctoKit.h>
+#import "RFKeyboardToolbar/RFKeyboardToolbar.h"
+#import "UITextView+Placeholder/UITextView+Placeholder.h"
+#import "OctoKit/OctoKit.h"
 #import "GIResources.h"
 #import "OCTClient_OCTClient_Issues.h"
 

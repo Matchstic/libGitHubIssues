@@ -7,14 +7,12 @@
 //
 
 #import "GIResources.h"
-///#import "GIKeychainWrapper.h"
-#import <OctoKit/OctoKit.h>
-#import <SAMKeychain/SAMKeychain.h>
+#import "OctoKit/OctoKit.h"
+#import "SAMKeychain/SAMKeychain.h"
 
 static OCTClient *sharedClient;
 static OCTClient *sharedUnauthenticatedClient;
 static RACSignal *sharedRepository;
-//static GIKeychainWrapper *sharedKeychain;
 static NSString *_clientID;
 static NSString *_clientSecret;
 
