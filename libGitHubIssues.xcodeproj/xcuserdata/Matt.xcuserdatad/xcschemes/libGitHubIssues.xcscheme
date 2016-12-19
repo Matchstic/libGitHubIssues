@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C913A68D1E07A10C0030FDF8"
+               BlueprintIdentifier = "C9F46D271E07B40C00813F13"
                BuildableName = "libGitHubIssues.a"
-               BlueprintName = "GitHub Issues"
-               ReferencedContainer = "container:Github Issues.xcodeproj">
+               BlueprintName = "libGitHubIssues"
+               ReferencedContainer = "container:libGitHubIssues.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C913A68D1E07A10C0030FDF8"
+            BlueprintIdentifier = "C9F46D271E07B40C00813F13"
             BuildableName = "libGitHubIssues.a"
-            BlueprintName = "GitHub Issues"
-            ReferencedContainer = "container:Github Issues.xcodeproj">
+            BlueprintName = "libGitHubIssues"
+            ReferencedContainer = "container:libGitHubIssues.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C913A68D1E07A10C0030FDF8"
+            BlueprintIdentifier = "C9F46D271E07B40C00813F13"
             BuildableName = "libGitHubIssues.a"
-            BlueprintName = "GitHub Issues"
-            ReferencedContainer = "container:Github Issues.xcodeproj">
+            BlueprintName = "libGitHubIssues"
+            ReferencedContainer = "container:libGitHubIssues.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

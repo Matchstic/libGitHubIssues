@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -R "GitHub Issues/Supporting Files/." "GitHub Issues (Jailbreak)/Package/Library/Application Support/libGitHubIssues/"
+cp -R "libGitHubIssues/Supporting Files/." "libGitHubIssues-(Jailbreak)/Package/Library/Application Support/libGitHubIssues/"

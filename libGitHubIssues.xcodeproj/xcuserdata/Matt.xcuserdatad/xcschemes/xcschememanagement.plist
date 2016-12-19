@@ -4,25 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GitHub Issues (Jailbreak).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>13</integer>
-		</dict>
-		<key>GitHub Issues Demo.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
-		</dict>
-		<key>GitHub Issues.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
-		</dict>
 		<key>Github Issues.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>libGitHubIssues Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>libGitHubIssues-(Jailbreak).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>libGitHubIssues.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -48,6 +48,21 @@
 			<true/>
 		</dict>
 		<key>C92986F91E049F28002BDFEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9F46D0B1E07B3DF00813F13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9F46D271E07B40C00813F13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9F46D6E1E07B51000813F13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
