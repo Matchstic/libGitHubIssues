@@ -10,7 +10,7 @@
 #import "GILoginController.h"
 #import "GIIssuesViewController.h"
 #import "GIResources.h"
-#import "OctoKit/OctoKit.h"
+#import <OctoKit/OctoKit.h>
 
 @interface GIRootViewController ()
 

@@ -8,8 +8,8 @@
 
 #import "GIUserViewController.h"
 #import "GIResources.h"
-#import "OctoKit/OctoKit.h"
-#import "AFNetworking/AFNetworking.h"
+#import <OctoKit/OctoKit.h>
+#import <AFNetworking/AFNetworking.h>
 
 @interface GIUserViewController ()
 
