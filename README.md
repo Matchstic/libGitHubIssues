@@ -13,7 +13,7 @@ Integrate GitHub's Issues system into your app to use as a bugtracker. A single 
 
 ##Installation
 
-You can install libGitHubIssues into your application in two ways: via [CocoaPods](https://guides.cocoapods.org/using/getting-started.html), or as a dependancy in a jailbroken package.
+You can install *libGitHubIssues* into your application in two ways: via [CocoaPods](https://guides.cocoapods.org/using/getting-started.html), or as a dependancy in a jailbroken package.
 
 ###REQUIRED: GitHub Application
 
@@ -25,13 +25,13 @@ Make a note of the client ID and secret; you will need these when using this pro
 
 Add
 
-  pod "libGitHubIssues", "~> 0.0.1"
+    pod "libGitHubIssues", "~> 0.0.1"
 
 to your Podfile.
 
 ###Jailbroken Package
 
-When using libGitHubIssues in a jailbroken package: 
+When using *libGitHubIssues* in a jailbroken package: 
 
 1. On your device, download and install libGitHubIssues from Cydia.
 2. Copy libGitHubIssues.dylib from /usr/lib to your development machine's theos/lib directory.
@@ -41,7 +41,7 @@ When using libGitHubIssues in a jailbroken package:
 
 ##Usage
 
-    \#import <libGitHubIssues.h>
+    #import <libGitHubIssues.h>
 
     ...
 
@@ -62,9 +62,9 @@ update CocoaPods:
 
     $ pod update
 
-and open libGitHubIssues.xcworkspace.
+and open *libGitHubIssues.xcworkspace*.
 
-To build the libGitHubIssues-(Jailbreak) target you will need iOSOpenDev.
+To build the *libGitHubIssues-(Jailbreak)* target you will need iOSOpenDev.
 
 ===
 
