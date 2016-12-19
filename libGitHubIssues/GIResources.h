@@ -17,9 +17,10 @@
 +(UIImage*)imageWithName:(NSString*)name;
 
 +(void)_setSuccessfulClient:(id)client;
-+(void)_registerAppIdentifier:(NSString*)identifier clientID:(NSString*)clientid andSecret:(NSString*)secret;
++(void)_registerClientID:(NSString*)clientid andSecret:(NSString*)secret;
 +(void)_setCurrentRepositoryName:(NSString*)name andOwner:(NSString*)owner;
 +(id)_getCurrentClient;
 +(id)_getCurrentRepository;
++(NSString*)_generateFingerprint;
 
 @end

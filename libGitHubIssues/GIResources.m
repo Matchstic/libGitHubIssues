@@ -7,13 +7,18 @@
 //
 
 #import "GIResources.h"
-#import "GIKeychainWrapper.h"
+///#import "GIKeychainWrapper.h"
 #import <OctoKit.h>
+#import <SAMKeychain.h>
 
 static OCTClient *sharedClient;
 static OCTClient *sharedUnauthenticatedClient;
 static RACSignal *sharedRepository;
-static GIKeychainWrapper *sharedKeychain;
+//static GIKeychainWrapper *sharedKeychain;
+static NSString *_clientID;
+static NSString *_clientSecret;
+
+NSString *letters = @"abcdefghijklmnopqrstuvwxyz0123456789";
 
 @implementation GIResources
 
@@ -104,21 +109,25 @@ static GIKeychainWrapper *sharedKeychain;
     
     sharedClient = client;
     
-    if (client) {
-        [sharedKeychain mySetObject:client.user.rawLogin forKey:(__bridge NSString*)kSecAttrAccount];
-        [sharedKeychain mySetObject:client.token forKey:(__bridge NSString*)kSecValueData];
-    } else {
-        [sharedKeychain mySetObject:@"" forKey:(__bridge NSString*)kSecAttrAccount];
-        [sharedKeychain mySetObject:@"" forKey:(__bridge NSString*)kSecValueData];
-    }
+    NSString *identifier = [NSString stringWithFormat:@"com.matchstic.libGitHubIssues.%@", _clientID];
     
-    [sharedKeychain writeToKeychain];
+    if (client) {
+        [SAMKeychain setPassword:client.token forService:identifier account:client.user.rawLogin];
+    } else {
+        NSDictionary *account = [[SAMKeychain accountsForService:identifier] firstObject];
+        NSString *name = [account objectForKey:kSAMKeychainAccountKey];
+        
+        [SAMKeychain deletePasswordForService:identifier account:name];
+    }
 }
 
 +(OCTClient*)_getCurrentClient {
+    NSString *identifier = [NSString stringWithFormat:@"com.matchstic.libGitHubIssues.%@", _clientID];
     
-    NSString *username = [sharedKeychain myObjectForKey:(__bridge NSString*)kSecAttrAccount];
-    NSString *token = [sharedKeychain myObjectForKey:(__bridge NSString*)kSecValueData];
+    NSDictionary *account = [[SAMKeychain accountsForService:identifier] firstObject];
+    NSString *username = [account objectForKey:kSAMKeychainAccountKey];
+    
+    NSString *token = [SAMKeychain passwordForService:identifier account:username];
     
     if (username && ![username isEqualToString:@""] && token && ![token isEqualToString:@""]) {
         OCTUser *user = [OCTUser userWithRawLogin:username server:OCTServer.dotComServer];
@@ -136,10 +145,15 @@ static GIKeychainWrapper *sharedKeychain;
 }
 
 // Must be called first!
-+(void)_registerAppIdentifier:(NSString*)identifier clientID:(NSString*)clientid andSecret:(NSString*)secret {
++(void)_registerClientID:(NSString*)clientid andSecret:(NSString*)secret {
     [OCTClient setClientID:clientid clientSecret:secret];
     
-    sharedKeychain = [[GIKeychainWrapper alloc] initWithKeychainID:[identifier UTF8String]];
+    _clientID = clientid;
+    _clientSecret = secret;
+    
+    //NSString *identifier = [NSString stringWithFormat:@"com.matchstic.libGitHubIssues.%@", clientid];
+    
+    //sharedKeychain = [[GIKeychainWrapper alloc] initWithKeychainID:[identifier UTF8String]];
 }
 
 +(void)_setCurrentRepositoryName:(NSString*)name andOwner:(NSString*)owner {
@@ -148,6 +162,17 @@ static GIKeychainWrapper *sharedKeychain;
 
 +(id)_getCurrentRepository {
     return sharedRepository;
+}
+
++(NSString*)_generateFingerprint {
+    NSInteger len = 20;
+    NSMutableString *randomString = [NSMutableString stringWithCapacity: len];
+    
+    for (int i=0; i<len; i++) {
+        [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random_uniform((int)[letters length])]];
+    }
+    
+    return randomString;
 }
 
 @end

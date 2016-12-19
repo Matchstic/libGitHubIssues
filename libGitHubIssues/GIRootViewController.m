@@ -18,8 +18,8 @@
 
 @implementation GIRootViewController
 
-+(void)registerIdentifier:(NSString*)identifier clientID:(NSString*)clientId andSecret:(NSString*)clientSecret {
-    [GIResources _registerAppIdentifier:identifier clientID:clientId andSecret:clientSecret];
++(void)registerClientID:(NSString*)clientId andSecret:(NSString*)clientSecret {
+    [GIResources _registerClientID:clientId andSecret:clientSecret];
 }
 
 +(void)registerCurrentRepositoryName:(NSString*)name andOwner:(NSString*)owner {

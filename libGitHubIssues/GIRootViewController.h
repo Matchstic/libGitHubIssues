@@ -10,17 +10,15 @@
 
 @interface GIRootViewController : UINavigationController
 
-/** 
- Configure libGitHubIssues with an identifier with which to save user login details with in the Keychain,
- along with the client ID and secret for your application on GitHub.\n\n
+/**
+ Configure libGitHubIssues with an identifier with the client ID and secret for your application on GitHub.\n\n
  
  The client ID and secret can be found at: https://github.com/settings/developers
  
- @param identifier Identifier to store login details with.
  @param clientId Cient ID from your GitHub application.
  @param clientSecret Client secret from your GitHub application.
-*/
-+(void)registerIdentifier:(NSString*)identifier clientID:(NSString*)clientId andSecret:(NSString*)clientSecret;
+ */
++(void)registerClientID:(NSString*)clientId andSecret:(NSString*)clientSecret;
 
 /**
  Configure which repository libGitHubIssues should access Issues from.\n\n

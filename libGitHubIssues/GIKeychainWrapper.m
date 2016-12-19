@@ -48,7 +48,7 @@
         // converted to an NSData object:
         NSData *keychainItemID = [NSData dataWithBytes:identifier
                                                 length:strlen((const char *)identifier)];
-        [_genericPasswordQuery setObject:keychainItemID forKey:(__bridge id)kSecAttrGeneric];
+        [_genericPasswordQuery setObject:keychainItemID forKey:(__bridge id)kSecAttrService];
         
         // Return the attributes of the first match only:
         [_genericPasswordQuery setObject:(__bridge id)kSecMatchLimitOne forKey:(__bridge id)kSecMatchLimit];
@@ -124,7 +124,7 @@
     [_keychainData setObject:@"GitHub OAuth2 token" forKey:(__bridge id)kSecAttrLabel];
     [_keychainData setObject:@"An OAuth2 token for use in the libGithubIssues kit." forKey:(__bridge id)kSecAttrDescription];
     [_keychainData setObject:@"" forKey:(__bridge id)kSecAttrAccount];
-    [_keychainData setObject:@"github.com" forKey:(__bridge id)kSecAttrService];
+    [_keychainData setObject:[NSString stringWithUTF8String:_identifier] forKey:(__bridge id)kSecAttrService];
     [_keychainData setObject:@"kSecAttrAccount == username, kSecValueData == token." forKey:(__bridge id)kSecAttrComment];
     [_keychainData setObject:@"" forKey:(__bridge id)kSecValueData];
 }
@@ -240,7 +240,13 @@
         OSStatus errorcode = SecItemAdd(
                                         (__bridge CFDictionaryRef)[self dictionaryToSecItemFormat:_keychainData],
                                         NULL);
-        NSLog(@"ERRORCODE: %d", (int)errorcode);
+        
+        if (errorcode == errSecDuplicateItem) {
+            // Uh... That's not right?
+            
+        }
+        
+        NSLog(@"ERRORCODE: %d (-25299 == duplicate)", (int)errorcode);
         NSAssert(errorcode == noErr, @"Couldn't add the Keychain Item. Got entitlements?" );
         if (attributes) CFRelease(attributes);
     }

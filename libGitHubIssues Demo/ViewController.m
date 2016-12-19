@@ -27,8 +27,8 @@
      *
      * Not providing them here just prevents users from being able to login.
      */
-    [GIRootViewController registerIdentifier:@"com.matchstic.libGitHubIssues-Demo" clientID:@"" andSecret:@""];
-    [GIRootViewController registerCurrentRepositoryName:@"octokit.objc" andOwner:@"octokit"];
+    [GIRootViewController registerClientID:@"" andSecret:@""];
+    [GIRootViewController registerCurrentRepositoryName:@"Xen" andOwner:@"Matchstic"];
     
     [self presentViewController:rootModal animated:YES completion:nil];
 }
