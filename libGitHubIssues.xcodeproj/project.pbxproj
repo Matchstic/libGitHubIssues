@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A4505A2CC2B1AC1AB70AD638 /* libPods-libGitHubIssues-(Jailbreak).a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D7ECE42B516D8EE8FE670B /* libPods-libGitHubIssues-(Jailbreak).a */; };
 		B4E0EA54203B364FF6DFAEA1 /* libPods-libGitHubIssues Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DB29FAFB99064BB290ECC0 /* libPods-libGitHubIssues Demo.a */; };
+		C9E5F4C41E07E71A002E9039 /* OCTClient+Fingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5F4C21E07E1F7002E9039 /* OCTClient+Fingerprint.m */; };
+		C9E5F4C51E07E743002E9039 /* OCTClient+Fingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E5F4C21E07E1F7002E9039 /* OCTClient+Fingerprint.m */; };
 		C9F46D101E07B3E000813F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D0F1E07B3E000813F13 /* main.m */; };
 		C9F46D131E07B3E000813F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D121E07B3E000813F13 /* AppDelegate.m */; };
 		C9F46D161E07B3E000813F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D151E07B3E000813F13 /* ViewController.m */; };
@@ -76,21 +78,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07E6F769399050E2C16AD32D /* Pods-GitHub Issues (Jailbreak).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues (Jailbreak).release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues (Jailbreak)/Pods-GitHub Issues (Jailbreak).release.xcconfig"; sourceTree = "<group>"; };
 		0F4A61D25DEE708B80C36C5D /* Pods-libGitHubIssues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues.release.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues/Pods-libGitHubIssues.release.xcconfig"; sourceTree = "<group>"; };
-		1FAD88FCDB3E180696041AD6 /* Pods-GitHub Issues (Jailbreak).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues (Jailbreak).debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues (Jailbreak)/Pods-GitHub Issues (Jailbreak).debug.xcconfig"; sourceTree = "<group>"; };
 		32AD03C79799BBF52D5D1738 /* libPods-libGitHubIssues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libGitHubIssues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A74F3D59EB24363E35B28F /* Pods-libGitHubIssues-(Jailbreak).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues-(Jailbreak).release.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues-(Jailbreak)/Pods-libGitHubIssues-(Jailbreak).release.xcconfig"; sourceTree = "<group>"; };
 		52CB315E8E020D77EEF61748 /* Pods-libGitHubIssues-(Jailbreak).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues-(Jailbreak).debug.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues-(Jailbreak)/Pods-libGitHubIssues-(Jailbreak).debug.xcconfig"; sourceTree = "<group>"; };
 		566CA4B9F52E74E028024DFA /* Pods-libGitHubIssues Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues Demo/Pods-libGitHubIssues Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		6C9E0A36BDFBC72A869D3DC7 /* Pods-GitHub Issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues/Pods-GitHub Issues.debug.xcconfig"; sourceTree = "<group>"; };
 		9C933130863EC6C7096281BA /* Pods-libGitHubIssues Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues Demo/Pods-libGitHubIssues Demo.release.xcconfig"; sourceTree = "<group>"; };
 		9DA5BC535A542541D9FF1050 /* Pods-libGitHubIssues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGitHubIssues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libGitHubIssues/Pods-libGitHubIssues.debug.xcconfig"; sourceTree = "<group>"; };
 		A4D7ECE42B516D8EE8FE670B /* libPods-libGitHubIssues-(Jailbreak).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libGitHubIssues-(Jailbreak).a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFA00D568D512998057750FC /* Pods-GitHub Issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues/Pods-GitHub Issues.release.xcconfig"; sourceTree = "<group>"; };
 		B3DB29FAFB99064BB290ECC0 /* libPods-libGitHubIssues Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libGitHubIssues Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C913A6D41E07A2610030FDF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C913A6D61E07A2610030FDF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9E5F4C11E07E1F7002E9039 /* OCTClient+Fingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCTClient+Fingerprint.h"; sourceTree = "<group>"; };
+		C9E5F4C21E07E1F7002E9039 /* OCTClient+Fingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCTClient+Fingerprint.m"; sourceTree = "<group>"; };
 		C9F46D0C1E07B3DF00813F13 /* libGitHubIssues Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "libGitHubIssues Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F46D0F1E07B3E000813F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F46D111E07B3E000813F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -359,6 +359,8 @@
 				C9F46D4A1E07B42200813F13 /* OCTClient_OCTClient_Issues.m */,
 				C9F46D4B1E07B42200813F13 /* OCTIssue+New.h */,
 				C9F46D4C1E07B42200813F13 /* OCTIssue+New.m */,
+				C9E5F4C11E07E1F7002E9039 /* OCTClient+Fingerprint.h */,
+				C9E5F4C21E07E1F7002E9039 /* OCTClient+Fingerprint.m */,
 				C9F46D4D1E07B42200813F13 /* OCTIssueComment+New.h */,
 				C9F46D4E1E07B42200813F13 /* OCTIssueComment+New.m */,
 			);
@@ -539,10 +541,6 @@
 		F48DA799165EECF8E0BC5BA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C9E0A36BDFBC72A869D3DC7 /* Pods-GitHub Issues.debug.xcconfig */,
-				AFA00D568D512998057750FC /* Pods-GitHub Issues.release.xcconfig */,
-				1FAD88FCDB3E180696041AD6 /* Pods-GitHub Issues (Jailbreak).debug.xcconfig */,
-				07E6F769399050E2C16AD32D /* Pods-GitHub Issues (Jailbreak).release.xcconfig */,
 				9DA5BC535A542541D9FF1050 /* Pods-libGitHubIssues.debug.xcconfig */,
 				0F4A61D25DEE708B80C36C5D /* Pods-libGitHubIssues.release.xcconfig */,
 				52CB315E8E020D77EEF61748 /* Pods-libGitHubIssues-(Jailbreak).debug.xcconfig */,
@@ -867,6 +865,7 @@
 				C9F46D5D1E07B42200813F13 /* GIRootViewController.m in Sources */,
 				C9F46D5E1E07B42200813F13 /* GIUserViewController.m in Sources */,
 				C9F46D601E07B42200813F13 /* OCTIssue+New.m in Sources */,
+				C9E5F4C41E07E71A002E9039 /* OCTClient+Fingerprint.m in Sources */,
 				C9F46D581E07B42200813F13 /* GIIssuesTableViewCell.m in Sources */,
 				C9F46D541E07B42200813F13 /* GIIssueComposeController.m in Sources */,
 				C9F46D5B1E07B42200813F13 /* GILoginController.m in Sources */,
@@ -889,6 +888,7 @@
 				C9F46DBD1E07B66A00813F13 /* GIRootViewController.m in Sources */,
 				C9F46DBF1E07B66A00813F13 /* GIUserViewController.m in Sources */,
 				C9F46DC31E07B66A00813F13 /* OCTIssue+New.m in Sources */,
+				C9E5F4C51E07E743002E9039 /* OCTClient+Fingerprint.m in Sources */,
 				C9F46DB31E07B66A00813F13 /* GIIssuesTableViewCell.m in Sources */,
 				C9F46DAB1E07B66A00813F13 /* GIIssueComposeController.m in Sources */,
 				C9F46DB91E07B66A00813F13 /* GILoginController.m in Sources */,
@@ -1095,14 +1095,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(iOSOpenDevPath)/include/**",
 					"$(inherited)/**",
+					"$(iOSOpenDevPath)/include/**",
 				);
 				INSTALL_PATH = /usr/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
-					"$(iOSOpenDevPath)/lib/**",
 					"$(inherited)/**",
+					"$(iOSOpenDevPath)/lib/**",
 				);
 				PRODUCT_NAME = libGitHubIssues;
 				VALIDATE_PRODUCT = NO;
@@ -1136,14 +1136,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(iOSOpenDevPath)/include/**",
 					"$(inherited)/**",
+					"$(iOSOpenDevPath)/include/**",
 				);
 				INSTALL_PATH = /usr/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
-					"$(iOSOpenDevPath)/lib/**",
 					"$(inherited)/**",
+					"$(iOSOpenDevPath)/lib/**",
 				);
 				PRODUCT_NAME = libGitHubIssues;
 				iOSOpenDevBuildPackageOnAnyBuild = NO;

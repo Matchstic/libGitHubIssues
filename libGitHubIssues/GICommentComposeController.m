@@ -86,7 +86,7 @@
     // Add a button target to the exampleButton
     [imageButton addEventHandler:^{
         // Do anything in this block here
-        [_textView insertText:@"![Image Title](http://...)"];
+        [_textView insertText:@"![Alt text](http://...)"];
     } forControlEvents:UIControlEventTouchUpInside];
 
     
