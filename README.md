@@ -1,11 +1,15 @@
 #libGitHubIssues
 Integrate GitHub Issues as a bugtracker
 
-libGitHubIssues allows you to integrate GitHub's Issues system into your app to use as a bugtracker. It provides a single public view controller to present modally, and supports a native OAuth application flow for users to login. Existing issues can be viewed without the user needing to log in.
+Integrate GitHub's Issues system into your app to use as a bugtracker. A single public view controller is provided to present modally, and supports a native OAuth application flow for users to login. Existing issues can be viewed without the user needing to log in.
 
 ##Screenshots
 
-
+![Issues Overview](/Screenshots/screenshot1.png?raw=true "Issues Overview")
+![Issue Detail](/Screenshots/screenshot2.png?raw=true "Issue Detail")
+![Login UI](/Screenshots/screenshot3.png?raw=true "Login UI")
+![Comment Composer](/Screenshots/screenshot4.png?raw=true "Comment Composer")
+![Issue Composer](/Screenshots/screenshot5.png?raw=true "Issue COmposer")
 
 ##Installation
 
@@ -13,22 +17,17 @@ You can install libGitHubIssues into your application in two ways: via [CocoaPod
 
 ###REQUIRED: GitHub Application
 
-To utilise this project, you will first need to create an OAuth2 application for GitHub:
-
-1. Upload the provided github_api_callback.php file to your server somewhere accessible.
-2. Create an application [here](https://github.com/settings/developers), with the option for Authorization callback URL being the URL for said file.
+To utilise this project, you will first need to create an OAuth2 application for GitHub [here](https://github.com/settings/developers); fill in the homepage URL with your website, as it won't be needed for functionality.
   
 Make a note of the client ID and secret; you will need these when using this project.
 
 ###CocoaPods
 
-Add the following to your Podfile:
-  
-  pod "libGitHubIssues", "~> 0.0.1"
-  
-And execute:
+Add
 
-  pod install
+  pod "libGitHubIssues", "~> 0.0.1"
+
+to your Podfile.
 
 ###Jailbroken Package
 
@@ -42,9 +41,30 @@ When using libGitHubIssues in a jailbroken package:
 
 ##Usage
 
+    \#import <libGitHubIssues.h>
 
+    ...
+
+    GIRootViewController *rootModal = [[GIRootViewController alloc] init];
+
+    [GIRootViewController registerClientID:@"<client_id>" andSecret:@"<client_secret>"];
+    [GIRootViewController registerCurrentRepositoryName:@"Xen" andOwner:@"Matchstic"];
+
+    [self presentViewController:rootModal animated:YES completion:nil];
 
 ##Contributing
+
+To work on this project, clone or fork it:
+
+    $ git clone https://github.com/Matchstic/libGitHubIssues.git
+
+update CocoaPods:
+
+    $ pod update
+
+and open libGitHubIssues.xcworkspace.
+
+To build the libGitHubIssues-(Jailbreak) target you will need iOSOpenDev.
 
 ===
 
