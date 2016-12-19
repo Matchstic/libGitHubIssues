@@ -143,7 +143,7 @@ static GIKeychainWrapper *sharedKeychain;
 }
 
 +(void)_setCurrentRepositoryName:(NSString*)name andOwner:(NSString*)owner {
-    sharedRepository = [(OCTClient*)[GIResources _getCurrentClient] fetchRepositoryWithName:@"Xen" owner:@"Matchstic"];
+    sharedRepository = [(OCTClient*)[GIResources _getCurrentClient] fetchRepositoryWithName:name owner:owner];
 }
 
 +(id)_getCurrentRepository {
