@@ -9,7 +9,7 @@
 #import "GILoginController.h"
 #import "GIResources.h"
 #import "OCTClient+Fingerprint.h"
-#import <OctoKit.h>
+#import <OctoKit/OctoKit.h>
 
 typedef enum : NSUInteger {
     kGIStateBegin,

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <OctoKit.h>
+#import <OctoKit/OctoKit.h>
 
 @interface OCTClient (GIFingerprint)
 

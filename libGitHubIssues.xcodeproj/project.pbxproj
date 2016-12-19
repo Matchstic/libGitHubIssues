@@ -24,7 +24,6 @@
 		C9F46D571E07B42200813F13 /* GIIssuesLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D3A1E07B42200813F13 /* GIIssuesLabelView.m */; };
 		C9F46D581E07B42200813F13 /* GIIssuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D3C1E07B42200813F13 /* GIIssuesTableViewCell.m */; };
 		C9F46D591E07B42200813F13 /* GIIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D3E1E07B42200813F13 /* GIIssuesViewController.m */; };
-		C9F46D5A1E07B42200813F13 /* GIKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D401E07B42200813F13 /* GIKeychainWrapper.m */; };
 		C9F46D5B1E07B42200813F13 /* GILoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D421E07B42200813F13 /* GILoginController.m */; };
 		C9F46D5C1E07B42200813F13 /* GIResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D441E07B42200813F13 /* GIResources.m */; };
 		C9F46D5D1E07B42200813F13 /* GIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D461E07B42200813F13 /* GIRootViewController.m */; };
@@ -117,8 +116,6 @@
 		C9F46D3C1E07B42200813F13 /* GIIssuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesTableViewCell.m; sourceTree = "<group>"; };
 		C9F46D3D1E07B42200813F13 /* GIIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssuesViewController.h; sourceTree = "<group>"; };
 		C9F46D3E1E07B42200813F13 /* GIIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesViewController.m; sourceTree = "<group>"; };
-		C9F46D3F1E07B42200813F13 /* GIKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIKeychainWrapper.h; sourceTree = "<group>"; };
-		C9F46D401E07B42200813F13 /* GIKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIKeychainWrapper.m; sourceTree = "<group>"; };
 		C9F46D411E07B42200813F13 /* GILoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GILoginController.h; sourceTree = "<group>"; };
 		C9F46D421E07B42200813F13 /* GILoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GILoginController.m; sourceTree = "<group>"; };
 		C9F46D431E07B42200813F13 /* GIResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIResources.h; sourceTree = "<group>"; };
@@ -323,8 +320,6 @@
 		C9F46D651E07B44F00813F13 /* Backend */ = {
 			isa = PBXGroup;
 			children = (
-				C9F46D3F1E07B42200813F13 /* GIKeychainWrapper.h */,
-				C9F46D401E07B42200813F13 /* GIKeychainWrapper.m */,
 				C9F46D431E07B42200813F13 /* GIResources.h */,
 				C9F46D441E07B42200813F13 /* GIResources.m */,
 			);
@@ -860,7 +855,6 @@
 				C9F46D5F1E07B42200813F13 /* OCTClient_OCTClient_Issues.m in Sources */,
 				C9F46D5C1E07B42200813F13 /* GIResources.m in Sources */,
 				C9F46D611E07B42200813F13 /* OCTIssueComment+New.m in Sources */,
-				C9F46D5A1E07B42200813F13 /* GIKeychainWrapper.m in Sources */,
 				C9F46D571E07B42200813F13 /* GIIssuesLabelView.m in Sources */,
 				C9F46D5D1E07B42200813F13 /* GIRootViewController.m in Sources */,
 				C9F46D5E1E07B42200813F13 /* GIUserViewController.m in Sources */,
