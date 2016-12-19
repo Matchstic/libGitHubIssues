@@ -46,7 +46,7 @@ When using *libGitHubIssues* in a jailbroken package:
     GIRootViewController *rootModal = [[GIRootViewController alloc] init];
 
     [GIRootViewController registerClientID:@"<client_id>" andSecret:@"<client_secret>"];
-    [GIRootViewController registerCurrentRepositoryName:@"Xen" andOwner:@"Matchstic"];
+    [GIRootViewController registerCurrentRepositoryName:@"<repo_name>" andOwner:@"<repo_owner>"];
 
     [self presentViewController:rootModal animated:YES completion:nil];
 
