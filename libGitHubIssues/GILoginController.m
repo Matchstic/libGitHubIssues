@@ -8,6 +8,7 @@
 
 #import "GILoginController.h"
 #import "GIResources.h"
+#import "OCTClient+Fingerprint.h"
 #import <OctoKit.h>
 
 typedef enum : NSUInteger {
@@ -292,8 +293,10 @@ typedef enum : NSUInteger {
         self.loginButton.alpha = 0.25;
     }];
     
+    NSString *fingerprint = [GIResources _generateFingerprint];
+    
     [[[OCTClient
-       signInAsUser:user password:pass oneTimePassword:nil scopes:OCTClientAuthorizationScopesUser | OCTClientAuthorizationScopesRepository]
+       _gi_signInAsUser:user password:pass oneTimePassword:nil scopes:OCTClientAuthorizationScopesUser | OCTClientAuthorizationScopesRepository note:@"GitHub Issues App" noteURL:nil fingerprint:fingerprint]
       deliverOn:RACScheduler.mainThreadScheduler]
      subscribeNext:^(OCTClient *client) {
          
@@ -433,8 +436,10 @@ typedef enum : NSUInteger {
         self.twoFAButton.alpha = 0.0;
     }];
     
+    NSString *fingerprint = [GIResources _generateFingerprint];
+    
     [[[OCTClient
-       signInAsUser:user password:pass oneTimePassword:twoFA scopes:OCTClientAuthorizationScopesUser | OCTClientAuthorizationScopesRepository]
+       _gi_signInAsUser:user password:pass oneTimePassword:twoFA scopes:OCTClientAuthorizationScopesUser | OCTClientAuthorizationScopesRepository note:@"GitHub Issues App" noteURL:nil fingerprint:fingerprint]
       deliverOn:RACScheduler.mainThreadScheduler]
      subscribeNext:^(OCTClient *client) {
          

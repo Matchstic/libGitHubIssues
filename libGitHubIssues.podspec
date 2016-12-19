@@ -120,5 +120,6 @@ Pod::Spec.new do |s|
   s.dependency "OctoKit", "~> 0.5"
   s.dependency "RFMarkdownTextView", "~> 1.4"
   s.dependency "UITextView+Placeholder", "~> 1.2"
+  s.dependency "SAMKeychain"
 
 end

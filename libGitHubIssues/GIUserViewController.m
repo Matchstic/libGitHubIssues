@@ -156,6 +156,10 @@
     initialY += [[UIApplication sharedApplication] statusBarFrame].size.height;
     initialY += self.navigationController.navigationBar.frame.size.height;
     
+    if (!self.navigationController.navigationBar.translucent) {
+        initialY = 0;
+    }
+    
     // First, background image. Square if possible, but never taller than 40% of the height.
     CGFloat width = self.view.frame.size.width;
     CGFloat height = width;
