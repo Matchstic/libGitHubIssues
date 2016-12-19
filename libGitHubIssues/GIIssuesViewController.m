@@ -51,7 +51,8 @@ static GIIssuesTableViewCell *heightCheckerCell;
     self.navigationItem.titleView = _segmented;
     
     // Add the right item for profile.
-    UIBarButtonItem *profileItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(didTapProfileButton:)];
+    UIImage *icon = [GIResources imageWithName:@"libGitHubIssues_Profile"];
+    UIBarButtonItem *profileItem = [[UIBarButtonItem alloc] initWithImage:icon style:UIBarButtonItemStylePlain target:self action:@selector(didTapProfileButton:)];
     self.navigationItem.rightBarButtonItem = profileItem;
 }
 
