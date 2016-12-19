@@ -1,0 +1,11 @@
+Package: com.matchstic.libGitHubIssues
+Name: libGitHubIssues
+Version: 0.0.1
+Description: A library to use GitHub Issues as a bugtracker
+Section: System
+Depends: firmware (>= 8.0)
+Priority: optional
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>

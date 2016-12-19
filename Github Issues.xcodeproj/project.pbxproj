@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE34F63A63AC8C6BB00A95E5 /* libPods-GitHub Issues.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 464CEC74285DD8193A070822 /* libPods-GitHub Issues.a */; };
+		C913A6331E079FB30030FDF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6321E079FB30030FDF8 /* main.m */; };
+		C913A6361E079FB30030FDF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6351E079FB30030FDF8 /* AppDelegate.m */; };
+		C913A6391E079FB30030FDF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6381E079FB30030FDF8 /* ViewController.m */; };
+		C913A63C1E079FB30030FDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913A63A1E079FB30030FDF8 /* Main.storyboard */; };
+		C913A63E1E079FB30030FDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C913A63D1E079FB30030FDF8 /* Assets.xcassets */; };
+		C913A6411E079FB30030FDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C913A63F1E079FB30030FDF8 /* LaunchScreen.storyboard */; };
+		C913A6B61E07A11E0030FDF8 /* GICommentComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6981E07A11E0030FDF8 /* GICommentComposeController.m */; };
+		C913A6B71E07A11E0030FDF8 /* GIIssueComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A69A1E07A11E0030FDF8 /* GIIssueComposeController.m */; };
+		C913A6B81E07A11E0030FDF8 /* GIIssueDetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A69C1E07A11E0030FDF8 /* GIIssueDetailTableController.m */; };
+		C913A6B91E07A11E0030FDF8 /* GIIssuesCommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A69E1E07A11E0030FDF8 /* GIIssuesCommentTableCell.m */; };
+		C913A6BA1E07A11E0030FDF8 /* GIIssuesLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6A01E07A11E0030FDF8 /* GIIssuesLabelView.m */; };
+		C913A6BB1E07A11E0030FDF8 /* GIIssuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6A21E07A11E0030FDF8 /* GIIssuesTableViewCell.m */; };
+		C913A6BC1E07A11E0030FDF8 /* GIIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6A41E07A11E0030FDF8 /* GIIssuesViewController.m */; };
+		C913A6BD1E07A11E0030FDF8 /* GIKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6A61E07A11E0030FDF8 /* GIKeychainWrapper.m */; };
+		C913A6BE1E07A11E0030FDF8 /* GILoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6A81E07A11E0030FDF8 /* GILoginController.m */; };
+		C913A6BF1E07A11E0030FDF8 /* GIResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6AA1E07A11E0030FDF8 /* GIResources.m */; };
+		C913A6C01E07A11E0030FDF8 /* GIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6AC1E07A11E0030FDF8 /* GIRootViewController.m */; };
+		C913A6C11E07A11E0030FDF8 /* GIUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6AE1E07A11E0030FDF8 /* GIUserViewController.m */; };
+		C913A6C21E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6B01E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.m */; };
+		C913A6C31E07A11E0030FDF8 /* OCTIssue+New.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6B21E07A11E0030FDF8 /* OCTIssue+New.m */; };
+		C913A6C41E07A11E0030FDF8 /* OCTIssueComment+New.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6B41E07A11E0030FDF8 /* OCTIssueComment+New.m */; };
+		C913A6CC1E07A1C20030FDF8 /* libGitHubIssues.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C913A68E1E07A10C0030FDF8 /* libGitHubIssues.a */; };
+		C913A6D51E07A2610030FDF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C913A6D41E07A2610030FDF8 /* Foundation.framework */; };
+		C913A6D71E07A2610030FDF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C913A6D61E07A2610030FDF8 /* UIKit.framework */; };
+		C913A7081E07A3E00030FDF8 /* GICommentComposeController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6EA1E07A3E00030FDF8 /* GICommentComposeController.h */; };
+		C913A7091E07A3E00030FDF8 /* GICommentComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6EB1E07A3E00030FDF8 /* GICommentComposeController.m */; };
+		C913A70A1E07A3E00030FDF8 /* GIIssueComposeController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6EC1E07A3E00030FDF8 /* GIIssueComposeController.h */; };
+		C913A70B1E07A3E00030FDF8 /* GIIssueComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6ED1E07A3E00030FDF8 /* GIIssueComposeController.m */; };
+		C913A70C1E07A3E00030FDF8 /* GIIssueDetailTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6EE1E07A3E00030FDF8 /* GIIssueDetailTableController.h */; };
+		C913A70D1E07A3E00030FDF8 /* GIIssueDetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6EF1E07A3E00030FDF8 /* GIIssueDetailTableController.m */; };
+		C913A70E1E07A3E00030FDF8 /* GIIssuesCommentTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6F01E07A3E00030FDF8 /* GIIssuesCommentTableCell.h */; };
+		C913A70F1E07A3E00030FDF8 /* GIIssuesCommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6F11E07A3E00030FDF8 /* GIIssuesCommentTableCell.m */; };
+		C913A7101E07A3E00030FDF8 /* GIIssuesLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6F21E07A3E00030FDF8 /* GIIssuesLabelView.h */; };
+		C913A7111E07A3E00030FDF8 /* GIIssuesLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6F31E07A3E00030FDF8 /* GIIssuesLabelView.m */; };
+		C913A7121E07A3E00030FDF8 /* GIIssuesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6F41E07A3E00030FDF8 /* GIIssuesTableViewCell.h */; };
+		C913A7131E07A3E00030FDF8 /* GIIssuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6F51E07A3E00030FDF8 /* GIIssuesTableViewCell.m */; };
+		C913A7141E07A3E00030FDF8 /* GIIssuesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6F61E07A3E00030FDF8 /* GIIssuesViewController.h */; };
+		C913A7151E07A3E00030FDF8 /* GIIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6F71E07A3E00030FDF8 /* GIIssuesViewController.m */; };
+		C913A7161E07A3E00030FDF8 /* GIKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6F81E07A3E00030FDF8 /* GIKeychainWrapper.h */; };
+		C913A7171E07A3E00030FDF8 /* GIKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6F91E07A3E00030FDF8 /* GIKeychainWrapper.m */; };
+		C913A7181E07A3E00030FDF8 /* GILoginController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6FA1E07A3E00030FDF8 /* GILoginController.h */; };
+		C913A7191E07A3E00030FDF8 /* GILoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6FB1E07A3E00030FDF8 /* GILoginController.m */; };
+		C913A71A1E07A3E00030FDF8 /* GIResources.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6FC1E07A3E00030FDF8 /* GIResources.h */; };
+		C913A71B1E07A3E00030FDF8 /* GIResources.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6FD1E07A3E00030FDF8 /* GIResources.m */; };
+		C913A71C1E07A3E00030FDF8 /* GIRootViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A6FE1E07A3E00030FDF8 /* GIRootViewController.h */; };
+		C913A71D1E07A3E00030FDF8 /* GIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A6FF1E07A3E00030FDF8 /* GIRootViewController.m */; };
+		C913A71E1E07A3E00030FDF8 /* GIUserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A7001E07A3E00030FDF8 /* GIUserViewController.h */; };
+		C913A71F1E07A3E00030FDF8 /* GIUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A7011E07A3E00030FDF8 /* GIUserViewController.m */; };
+		C913A7201E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A7021E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.h */; };
+		C913A7211E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A7031E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.m */; };
+		C913A7221E07A3E00030FDF8 /* OCTIssue+New.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A7041E07A3E00030FDF8 /* OCTIssue+New.h */; };
+		C913A7231E07A3E00030FDF8 /* OCTIssue+New.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A7051E07A3E00030FDF8 /* OCTIssue+New.m */; };
+		C913A7241E07A3E00030FDF8 /* OCTIssueComment+New.h in Headers */ = {isa = PBXBuildFile; fileRef = C913A7061E07A3E00030FDF8 /* OCTIssueComment+New.h */; };
+		C913A7251E07A3E00030FDF8 /* OCTIssueComment+New.m in Sources */ = {isa = PBXBuildFile; fileRef = C913A7071E07A3E00030FDF8 /* OCTIssueComment+New.m */; };
+		F962FD8B5518A1FFA3D78848 /* libPods-GitHub Issues (Jailbreak).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDF92199803D6A08C070F8F /* libPods-GitHub Issues (Jailbreak).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C913A68C1E07A10C0030FDF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07E6F769399050E2C16AD32D /* Pods-GitHub Issues (Jailbreak).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues (Jailbreak).release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues (Jailbreak)/Pods-GitHub Issues (Jailbreak).release.xcconfig"; sourceTree = "<group>"; };
+		1CDF92199803D6A08C070F8F /* libPods-GitHub Issues (Jailbreak).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHub Issues (Jailbreak).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FAD88FCDB3E180696041AD6 /* Pods-GitHub Issues (Jailbreak).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues (Jailbreak).debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues (Jailbreak)/Pods-GitHub Issues (Jailbreak).debug.xcconfig"; sourceTree = "<group>"; };
+		464CEC74285DD8193A070822 /* libPods-GitHub Issues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitHub Issues.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9E0A36BDFBC72A869D3DC7 /* Pods-GitHub Issues.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues/Pods-GitHub Issues.debug.xcconfig"; sourceTree = "<group>"; };
+		AFA00D568D512998057750FC /* Pods-GitHub Issues.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub Issues.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHub Issues/Pods-GitHub Issues.release.xcconfig"; sourceTree = "<group>"; };
+		C913A62F1E079FB30030FDF8 /* GitHub Issues Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Issues Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C913A6321E079FB30030FDF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C913A6341E079FB30030FDF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C913A6351E079FB30030FDF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C913A6371E079FB30030FDF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C913A6381E079FB30030FDF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C913A63B1E079FB30030FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C913A63D1E079FB30030FDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C913A6401E079FB30030FDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C913A6421E079FB40030FDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C913A68E1E07A10C0030FDF8 /* libGitHubIssues.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGitHubIssues.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C913A6971E07A11E0030FDF8 /* GICommentComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICommentComposeController.h; sourceTree = "<group>"; };
+		C913A6981E07A11E0030FDF8 /* GICommentComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICommentComposeController.m; sourceTree = "<group>"; };
+		C913A6991E07A11E0030FDF8 /* GIIssueComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssueComposeController.h; sourceTree = "<group>"; };
+		C913A69A1E07A11E0030FDF8 /* GIIssueComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssueComposeController.m; sourceTree = "<group>"; };
+		C913A69B1E07A11E0030FDF8 /* GIIssueDetailTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssueDetailTableController.h; sourceTree = "<group>"; };
+		C913A69C1E07A11E0030FDF8 /* GIIssueDetailTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssueDetailTableController.m; sourceTree = "<group>"; };
+		C913A69D1E07A11E0030FDF8 /* GIIssuesCommentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssuesCommentTableCell.h; sourceTree = "<group>"; };
+		C913A69E1E07A11E0030FDF8 /* GIIssuesCommentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesCommentTableCell.m; sourceTree = "<group>"; };
+		C913A69F1E07A11E0030FDF8 /* GIIssuesLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssuesLabelView.h; sourceTree = "<group>"; };
+		C913A6A01E07A11E0030FDF8 /* GIIssuesLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesLabelView.m; sourceTree = "<group>"; };
+		C913A6A11E07A11E0030FDF8 /* GIIssuesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssuesTableViewCell.h; sourceTree = "<group>"; };
+		C913A6A21E07A11E0030FDF8 /* GIIssuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesTableViewCell.m; sourceTree = "<group>"; };
+		C913A6A31E07A11E0030FDF8 /* GIIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIssuesViewController.h; sourceTree = "<group>"; };
+		C913A6A41E07A11E0030FDF8 /* GIIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIssuesViewController.m; sourceTree = "<group>"; };
+		C913A6A51E07A11E0030FDF8 /* GIKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIKeychainWrapper.h; sourceTree = "<group>"; };
+		C913A6A61E07A11E0030FDF8 /* GIKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIKeychainWrapper.m; sourceTree = "<group>"; };
+		C913A6A71E07A11E0030FDF8 /* GILoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GILoginController.h; sourceTree = "<group>"; };
+		C913A6A81E07A11E0030FDF8 /* GILoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GILoginController.m; sourceTree = "<group>"; };
+		C913A6A91E07A11E0030FDF8 /* GIResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIResources.h; sourceTree = "<group>"; };
+		C913A6AA1E07A11E0030FDF8 /* GIResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIResources.m; sourceTree = "<group>"; };
+		C913A6AB1E07A11E0030FDF8 /* GIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIRootViewController.h; sourceTree = "<group>"; };
+		C913A6AC1E07A11E0030FDF8 /* GIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIRootViewController.m; sourceTree = "<group>"; };
+		C913A6AD1E07A11E0030FDF8 /* GIUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIUserViewController.h; sourceTree = "<group>"; };
+		C913A6AE1E07A11E0030FDF8 /* GIUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIUserViewController.m; sourceTree = "<group>"; };
+		C913A6AF1E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTClient_OCTClient_Issues.h; sourceTree = "<group>"; };
+		C913A6B01E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTClient_OCTClient_Issues.m; sourceTree = "<group>"; };
+		C913A6B11E07A11E0030FDF8 /* OCTIssue+New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCTIssue+New.h"; sourceTree = "<group>"; };
+		C913A6B21E07A11E0030FDF8 /* OCTIssue+New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCTIssue+New.m"; sourceTree = "<group>"; };
+		C913A6B31E07A11E0030FDF8 /* OCTIssueComment+New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCTIssueComment+New.h"; sourceTree = "<group>"; };
+		C913A6B41E07A11E0030FDF8 /* OCTIssueComment+New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCTIssueComment+New.m"; sourceTree = "<group>"; };
+		C913A6D31E07A2610030FDF8 /* libGitHubIssues.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGitHubIssues.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C913A6D41E07A2610030FDF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C913A6D61E07A2610030FDF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C913A6DC1E07A2610030FDF8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C913A6DE1E07A2610030FDF8 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C913A6EA1E07A3E00030FDF8 /* GICommentComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GICommentComposeController.h; path = "GitHub Issues/GICommentComposeController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6EB1E07A3E00030FDF8 /* GICommentComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GICommentComposeController.m; path = "GitHub Issues/GICommentComposeController.m"; sourceTree = SOURCE_ROOT; };
+		C913A6EC1E07A3E00030FDF8 /* GIIssueComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssueComposeController.h; path = "GitHub Issues/GIIssueComposeController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6ED1E07A3E00030FDF8 /* GIIssueComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssueComposeController.m; path = "GitHub Issues/GIIssueComposeController.m"; sourceTree = SOURCE_ROOT; };
+		C913A6EE1E07A3E00030FDF8 /* GIIssueDetailTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssueDetailTableController.h; path = "GitHub Issues/GIIssueDetailTableController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6EF1E07A3E00030FDF8 /* GIIssueDetailTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssueDetailTableController.m; path = "GitHub Issues/GIIssueDetailTableController.m"; sourceTree = SOURCE_ROOT; };
+		C913A6F01E07A3E00030FDF8 /* GIIssuesCommentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssuesCommentTableCell.h; path = "GitHub Issues/GIIssuesCommentTableCell.h"; sourceTree = SOURCE_ROOT; };
+		C913A6F11E07A3E00030FDF8 /* GIIssuesCommentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesCommentTableCell.m; path = "GitHub Issues/GIIssuesCommentTableCell.m"; sourceTree = SOURCE_ROOT; };
+		C913A6F21E07A3E00030FDF8 /* GIIssuesLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssuesLabelView.h; path = "GitHub Issues/GIIssuesLabelView.h"; sourceTree = SOURCE_ROOT; };
+		C913A6F31E07A3E00030FDF8 /* GIIssuesLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesLabelView.m; path = "GitHub Issues/GIIssuesLabelView.m"; sourceTree = SOURCE_ROOT; };
+		C913A6F41E07A3E00030FDF8 /* GIIssuesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssuesTableViewCell.h; path = "GitHub Issues/GIIssuesTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		C913A6F51E07A3E00030FDF8 /* GIIssuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesTableViewCell.m; path = "GitHub Issues/GIIssuesTableViewCell.m"; sourceTree = SOURCE_ROOT; };
+		C913A6F61E07A3E00030FDF8 /* GIIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssuesViewController.h; path = "GitHub Issues/GIIssuesViewController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6F71E07A3E00030FDF8 /* GIIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesViewController.m; path = "GitHub Issues/GIIssuesViewController.m"; sourceTree = SOURCE_ROOT; };
+		C913A6F81E07A3E00030FDF8 /* GIKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIKeychainWrapper.h; path = "GitHub Issues/GIKeychainWrapper.h"; sourceTree = SOURCE_ROOT; };
+		C913A6F91E07A3E00030FDF8 /* GIKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIKeychainWrapper.m; path = "GitHub Issues/GIKeychainWrapper.m"; sourceTree = SOURCE_ROOT; };
+		C913A6FA1E07A3E00030FDF8 /* GILoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GILoginController.h; path = "GitHub Issues/GILoginController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6FB1E07A3E00030FDF8 /* GILoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GILoginController.m; path = "GitHub Issues/GILoginController.m"; sourceTree = SOURCE_ROOT; };
+		C913A6FC1E07A3E00030FDF8 /* GIResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIResources.h; path = "GitHub Issues/GIResources.h"; sourceTree = SOURCE_ROOT; };
+		C913A6FD1E07A3E00030FDF8 /* GIResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIResources.m; path = "GitHub Issues/GIResources.m"; sourceTree = SOURCE_ROOT; };
+		C913A6FE1E07A3E00030FDF8 /* GIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIRootViewController.h; path = "GitHub Issues/GIRootViewController.h"; sourceTree = SOURCE_ROOT; };
+		C913A6FF1E07A3E00030FDF8 /* GIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIRootViewController.m; path = "GitHub Issues/GIRootViewController.m"; sourceTree = SOURCE_ROOT; };
+		C913A7001E07A3E00030FDF8 /* GIUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIUserViewController.h; path = "GitHub Issues/GIUserViewController.h"; sourceTree = SOURCE_ROOT; };
+		C913A7011E07A3E00030FDF8 /* GIUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIUserViewController.m; path = "GitHub Issues/GIUserViewController.m"; sourceTree = SOURCE_ROOT; };
+		C913A7021E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTClient_OCTClient_Issues.h; path = "GitHub Issues/OCTClient_OCTClient_Issues.h"; sourceTree = SOURCE_ROOT; };
+		C913A7031E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTClient_OCTClient_Issues.m; path = "GitHub Issues/OCTClient_OCTClient_Issues.m"; sourceTree = SOURCE_ROOT; };
+		C913A7041E07A3E00030FDF8 /* OCTIssue+New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OCTIssue+New.h"; path = "GitHub Issues/OCTIssue+New.h"; sourceTree = SOURCE_ROOT; };
+		C913A7051E07A3E00030FDF8 /* OCTIssue+New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "OCTIssue+New.m"; path = "GitHub Issues/OCTIssue+New.m"; sourceTree = SOURCE_ROOT; };
+		C913A7061E07A3E00030FDF8 /* OCTIssueComment+New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OCTIssueComment+New.h"; path = "GitHub Issues/OCTIssueComment+New.h"; sourceTree = SOURCE_ROOT; };
+		C913A7071E07A3E00030FDF8 /* OCTIssueComment+New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "OCTIssueComment+New.m"; path = "GitHub Issues/OCTIssueComment+New.m"; sourceTree = SOURCE_ROOT; };
+		C913A7301E07A49F0030FDF8 /* GitHub Issues Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub Issues Demo.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C913A62C1E079FB30030FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A6CC1E07A1C20030FDF8 /* libGitHubIssues.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C913A68B1E07A10C0030FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE34F63A63AC8C6BB00A95E5 /* libPods-GitHub Issues.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C913A6CF1E07A2610030FDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A6D51E07A2610030FDF8 /* Foundation.framework in Frameworks */,
+				C913A6D71E07A2610030FDF8 /* UIKit.framework in Frameworks */,
+				F962FD8B5518A1FFA3D78848 /* libPods-GitHub Issues (Jailbreak).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C913A6301E079FB30030FDF8 /* GitHub Issues Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C913A7301E07A49F0030FDF8 /* GitHub Issues Demo.entitlements */,
+				C913A6341E079FB30030FDF8 /* AppDelegate.h */,
+				C913A6351E079FB30030FDF8 /* AppDelegate.m */,
+				C913A6371E079FB30030FDF8 /* ViewController.h */,
+				C913A6381E079FB30030FDF8 /* ViewController.m */,
+				C913A63A1E079FB30030FDF8 /* Main.storyboard */,
+				C913A63D1E079FB30030FDF8 /* Assets.xcassets */,
+				C913A63F1E079FB30030FDF8 /* LaunchScreen.storyboard */,
+				C913A6421E079FB40030FDF8 /* Info.plist */,
+				C913A6311E079FB30030FDF8 /* Supporting Files */,
+			);
+			path = "GitHub Issues Demo";
+			sourceTree = "<group>";
+		};
+		C913A6311E079FB30030FDF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6321E079FB30030FDF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C913A68F1E07A10C0030FDF8 /* GitHub Issues */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6AB1E07A11E0030FDF8 /* GIRootViewController.h */,
+				C913A6AC1E07A11E0030FDF8 /* GIRootViewController.m */,
+				C913A6CB1E07A1830030FDF8 /* Issues UI */,
+				C913A6C81E07A1620030FDF8 /* Login UI */,
+				C913A6C91E07A16B0030FDF8 /* OctoKit Additions */,
+				C913A6C71E07A15C0030FDF8 /* Backend */,
+				C913A6CD1E07A2130030FDF8 /* Supporting Files */,
+			);
+			path = "GitHub Issues";
+			sourceTree = "<group>";
+		};
+		C913A6C51E07A1380030FDF8 /* Issue Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6971E07A11E0030FDF8 /* GICommentComposeController.h */,
+				C913A6981E07A11E0030FDF8 /* GICommentComposeController.m */,
+				C913A69B1E07A11E0030FDF8 /* GIIssueDetailTableController.h */,
+				C913A69C1E07A11E0030FDF8 /* GIIssueDetailTableController.m */,
+			);
+			name = "Issue Detail";
+			sourceTree = "<group>";
+		};
+		C913A6C61E07A1480030FDF8 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C913A69D1E07A11E0030FDF8 /* GIIssuesCommentTableCell.h */,
+				C913A69E1E07A11E0030FDF8 /* GIIssuesCommentTableCell.m */,
+				C913A69F1E07A11E0030FDF8 /* GIIssuesLabelView.h */,
+				C913A6A01E07A11E0030FDF8 /* GIIssuesLabelView.m */,
+				C913A6A11E07A11E0030FDF8 /* GIIssuesTableViewCell.h */,
+				C913A6A21E07A11E0030FDF8 /* GIIssuesTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		C913A6C71E07A15C0030FDF8 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6A51E07A11E0030FDF8 /* GIKeychainWrapper.h */,
+				C913A6A61E07A11E0030FDF8 /* GIKeychainWrapper.m */,
+				C913A6A91E07A11E0030FDF8 /* GIResources.h */,
+				C913A6AA1E07A11E0030FDF8 /* GIResources.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		C913A6C81E07A1620030FDF8 /* Login UI */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6A71E07A11E0030FDF8 /* GILoginController.h */,
+				C913A6A81E07A11E0030FDF8 /* GILoginController.m */,
+				C913A6AD1E07A11E0030FDF8 /* GIUserViewController.h */,
+				C913A6AE1E07A11E0030FDF8 /* GIUserViewController.m */,
+			);
+			name = "Login UI";
+			sourceTree = "<group>";
+		};
+		C913A6C91E07A16B0030FDF8 /* OctoKit Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6AF1E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.h */,
+				C913A6B01E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.m */,
+				C913A6B11E07A11E0030FDF8 /* OCTIssue+New.h */,
+				C913A6B21E07A11E0030FDF8 /* OCTIssue+New.m */,
+				C913A6B31E07A11E0030FDF8 /* OCTIssueComment+New.h */,
+				C913A6B41E07A11E0030FDF8 /* OCTIssueComment+New.m */,
+			);
+			name = "OctoKit Additions";
+			sourceTree = "<group>";
+		};
+		C913A6CA1E07A17C0030FDF8 /* Issues Overview */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6991E07A11E0030FDF8 /* GIIssueComposeController.h */,
+				C913A69A1E07A11E0030FDF8 /* GIIssueComposeController.m */,
+				C913A6A31E07A11E0030FDF8 /* GIIssuesViewController.h */,
+				C913A6A41E07A11E0030FDF8 /* GIIssuesViewController.m */,
+			);
+			name = "Issues Overview";
+			sourceTree = "<group>";
+		};
+		C913A6CB1E07A1830030FDF8 /* Issues UI */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6C51E07A1380030FDF8 /* Issue Detail */,
+				C913A6CA1E07A17C0030FDF8 /* Issues Overview */,
+				C913A6C61E07A1480030FDF8 /* Table Cells */,
+			);
+			name = "Issues UI";
+			sourceTree = "<group>";
+		};
+		C913A6CD1E07A2130030FDF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C913A6D81E07A2610030FDF8 /* GitHub Issues (Jailbreak) */ = {
+			isa = PBXGroup;
+			children = (
+				C913A7331E07A71B0030FDF8 /* Library */,
+				C913A6D91E07A2610030FDF8 /* Package */,
+				C913A6DD1E07A2610030FDF8 /* Supporting Files */,
+			);
+			path = "GitHub Issues (Jailbreak)";
+			sourceTree = "<group>";
+		};
+		C913A6D91E07A2610030FDF8 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6DA1E07A2610030FDF8 /* DEBIAN */,
+				C913A72D1E07A4470030FDF8 /* Library */,
+				C913A6E41E07A2610030FDF8 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C913A6DA1E07A2610030FDF8 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6DC1E07A2610030FDF8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C913A6DD1E07A2610030FDF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6DE1E07A2610030FDF8 /* PackageVersion.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C913A6E41E07A2610030FDF8 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6E51E07A2610030FDF8 /* lib */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		C913A6E51E07A2610030FDF8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		C913A7261E07A3EF0030FDF8 /* Issues Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6EA1E07A3E00030FDF8 /* GICommentComposeController.h */,
+				C913A6EB1E07A3E00030FDF8 /* GICommentComposeController.m */,
+				C913A6EE1E07A3E00030FDF8 /* GIIssueDetailTableController.h */,
+				C913A6EF1E07A3E00030FDF8 /* GIIssueDetailTableController.m */,
+			);
+			name = "Issues Detail";
+			sourceTree = "<group>";
+		};
+		C913A7271E07A3F80030FDF8 /* Issues Overview */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6EC1E07A3E00030FDF8 /* GIIssueComposeController.h */,
+				C913A6ED1E07A3E00030FDF8 /* GIIssueComposeController.m */,
+				C913A6F61E07A3E00030FDF8 /* GIIssuesViewController.h */,
+				C913A6F71E07A3E00030FDF8 /* GIIssuesViewController.m */,
+			);
+			name = "Issues Overview";
+			sourceTree = "<group>";
+		};
+		C913A7281E07A4000030FDF8 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6F01E07A3E00030FDF8 /* GIIssuesCommentTableCell.h */,
+				C913A6F11E07A3E00030FDF8 /* GIIssuesCommentTableCell.m */,
+				C913A6F21E07A3E00030FDF8 /* GIIssuesLabelView.h */,
+				C913A6F31E07A3E00030FDF8 /* GIIssuesLabelView.m */,
+				C913A6F41E07A3E00030FDF8 /* GIIssuesTableViewCell.h */,
+				C913A6F51E07A3E00030FDF8 /* GIIssuesTableViewCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		C913A7291E07A4090030FDF8 /* Issues UI */ = {
+			isa = PBXGroup;
+			children = (
+				C913A7261E07A3EF0030FDF8 /* Issues Detail */,
+				C913A7271E07A3F80030FDF8 /* Issues Overview */,
+				C913A7281E07A4000030FDF8 /* Table Cells */,
+			);
+			name = "Issues UI";
+			sourceTree = "<group>";
+		};
+		C913A72A1E07A4150030FDF8 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6F81E07A3E00030FDF8 /* GIKeychainWrapper.h */,
+				C913A6F91E07A3E00030FDF8 /* GIKeychainWrapper.m */,
+				C913A6FC1E07A3E00030FDF8 /* GIResources.h */,
+				C913A6FD1E07A3E00030FDF8 /* GIResources.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		C913A72B1E07A41C0030FDF8 /* Login UI */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6FA1E07A3E00030FDF8 /* GILoginController.h */,
+				C913A6FB1E07A3E00030FDF8 /* GILoginController.m */,
+				C913A7001E07A3E00030FDF8 /* GIUserViewController.h */,
+				C913A7011E07A3E00030FDF8 /* GIUserViewController.m */,
+			);
+			name = "Login UI";
+			sourceTree = "<group>";
+		};
+		C913A72C1E07A42E0030FDF8 /* OctoKit Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C913A7021E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.h */,
+				C913A7031E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.m */,
+				C913A7041E07A3E00030FDF8 /* OCTIssue+New.h */,
+				C913A7051E07A3E00030FDF8 /* OCTIssue+New.m */,
+				C913A7061E07A3E00030FDF8 /* OCTIssueComment+New.h */,
+				C913A7071E07A3E00030FDF8 /* OCTIssueComment+New.m */,
+			);
+			name = "OctoKit Additions";
+			sourceTree = "<group>";
+		};
+		C913A72D1E07A4470030FDF8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C913A72E1E07A4470030FDF8 /* Application Support */,
+			);
+			name = Library;
+			path = Package/Library;
+			sourceTree = "<group>";
+		};
+		C913A72E1E07A4470030FDF8 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				C913A72F1E07A4470030FDF8 /* libGitHubIssues */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+		C913A72F1E07A4470030FDF8 /* libGitHubIssues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libGitHubIssues;
+			sourceTree = "<group>";
+		};
+		C913A7331E07A71B0030FDF8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6FE1E07A3E00030FDF8 /* GIRootViewController.h */,
+				C913A6FF1E07A3E00030FDF8 /* GIRootViewController.m */,
+				C913A7291E07A4090030FDF8 /* Issues UI */,
+				C913A72B1E07A41C0030FDF8 /* Login UI */,
+				C913A72A1E07A4150030FDF8 /* Backend */,
+				C913A72C1E07A42E0030FDF8 /* OctoKit Additions */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C92986F11E049F28002BDFEB = {
+			isa = PBXGroup;
+			children = (
+				C913A6301E079FB30030FDF8 /* GitHub Issues Demo */,
+				C913A68F1E07A10C0030FDF8 /* GitHub Issues */,
+				C913A6D81E07A2610030FDF8 /* GitHub Issues (Jailbreak) */,
+				C92986FB1E049F28002BDFEB /* Products */,
+				C92987201E04C0BA002BDFEB /* Frameworks */,
+				F48DA799165EECF8E0BC5BA6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C92986FB1E049F28002BDFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C913A62F1E079FB30030FDF8 /* GitHub Issues Demo.app */,
+				C913A68E1E07A10C0030FDF8 /* libGitHubIssues.a */,
+				C913A6D31E07A2610030FDF8 /* libGitHubIssues.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92987201E04C0BA002BDFEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C913A6D41E07A2610030FDF8 /* Foundation.framework */,
+				C913A6D61E07A2610030FDF8 /* UIKit.framework */,
+				464CEC74285DD8193A070822 /* libPods-GitHub Issues.a */,
+				1CDF92199803D6A08C070F8F /* libPods-GitHub Issues (Jailbreak).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48DA799165EECF8E0BC5BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C9E0A36BDFBC72A869D3DC7 /* Pods-GitHub Issues.debug.xcconfig */,
+				AFA00D568D512998057750FC /* Pods-GitHub Issues.release.xcconfig */,
+				1FAD88FCDB3E180696041AD6 /* Pods-GitHub Issues (Jailbreak).debug.xcconfig */,
+				07E6F769399050E2C16AD32D /* Pods-GitHub Issues (Jailbreak).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C913A6D01E07A2610030FDF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A7121E07A3E00030FDF8 /* GIIssuesTableViewCell.h in Headers */,
+				C913A7181E07A3E00030FDF8 /* GILoginController.h in Headers */,
+				C913A7081E07A3E00030FDF8 /* GICommentComposeController.h in Headers */,
+				C913A71C1E07A3E00030FDF8 /* GIRootViewController.h in Headers */,
+				C913A70A1E07A3E00030FDF8 /* GIIssueComposeController.h in Headers */,
+				C913A7241E07A3E00030FDF8 /* OCTIssueComment+New.h in Headers */,
+				C913A7101E07A3E00030FDF8 /* GIIssuesLabelView.h in Headers */,
+				C913A71E1E07A3E00030FDF8 /* GIUserViewController.h in Headers */,
+				C913A70C1E07A3E00030FDF8 /* GIIssueDetailTableController.h in Headers */,
+				C913A70E1E07A3E00030FDF8 /* GIIssuesCommentTableCell.h in Headers */,
+				C913A7201E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.h in Headers */,
+				C913A7161E07A3E00030FDF8 /* GIKeychainWrapper.h in Headers */,
+				C913A71A1E07A3E00030FDF8 /* GIResources.h in Headers */,
+				C913A7221E07A3E00030FDF8 /* OCTIssue+New.h in Headers */,
+				C913A7141E07A3E00030FDF8 /* GIIssuesViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C913A62E1E079FB30030FDF8 /* GitHub Issues Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C913A6431E079FB40030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues Demo" */;
+			buildPhases = (
+				C913A62B1E079FB30030FDF8 /* Sources */,
+				C913A62C1E079FB30030FDF8 /* Frameworks */,
+				C913A62D1E079FB30030FDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Issues Demo";
+			productName = "GitHub Issues Demo";
+			productReference = C913A62F1E079FB30030FDF8 /* GitHub Issues Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C913A68D1E07A10C0030FDF8 /* GitHub Issues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C913A6941E07A10C0030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues" */;
+			buildPhases = (
+				8D001E124CD26CD03ABC3522 /* [CP] Check Pods Manifest.lock */,
+				C913A68A1E07A10C0030FDF8 /* Sources */,
+				C913A68B1E07A10C0030FDF8 /* Frameworks */,
+				C913A68C1E07A10C0030FDF8 /* CopyFiles */,
+				A4747099345BC20BE01EAE19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Issues";
+			productName = "GitHub Issues";
+			productReference = C913A68E1E07A10C0030FDF8 /* libGitHubIssues.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C913A6D21E07A2610030FDF8 /* GitHub Issues (Jailbreak) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C913A6E71E07A2620030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues (Jailbreak)" */;
+			buildPhases = (
+				34086628FEC2B7CDD2338341 /* [CP] Check Pods Manifest.lock */,
+				C913A6CE1E07A2610030FDF8 /* Sources */,
+				C913A6CF1E07A2610030FDF8 /* Frameworks */,
+				6FA0376AF9A4E02C67573974 /* [CP] Copy Pods Resources */,
+				C913A7321E07A5F70030FDF8 /* Copy Library Image Resources */,
+				C913A6D01E07A2610030FDF8 /* Headers */,
+				C913A6D11E07A2610030FDF8 /* Pseudo-sign and Build Debian Package */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Issues (Jailbreak)";
+			productName = "GitHub Issues (Jailbreak)";
+			productReference = C913A6D31E07A2610030FDF8 /* libGitHubIssues.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92986F21E049F28002BDFEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matt Clarke";
+				TargetAttributes = {
+					C913A62E1E079FB30030FDF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MWMJ98X6F2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					C913A68D1E07A10C0030FDF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MWMJ98X6F2;
+						ProvisioningStyle = Automatic;
+					};
+					C913A6D21E07A2610030FDF8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C92986F51E049F28002BDFEB /* Build configuration list for PBXProject "Github Issues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C92986F11E049F28002BDFEB;
+			productRefGroup = C92986FB1E049F28002BDFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C913A62E1E079FB30030FDF8 /* GitHub Issues Demo */,
+				C913A68D1E07A10C0030FDF8 /* GitHub Issues */,
+				C913A6D21E07A2610030FDF8 /* GitHub Issues (Jailbreak) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C913A62D1E079FB30030FDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A6411E079FB30030FDF8 /* LaunchScreen.storyboard in Resources */,
+				C913A63E1E079FB30030FDF8 /* Assets.xcassets in Resources */,
+				C913A63C1E079FB30030FDF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34086628FEC2B7CDD2338341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA0376AF9A4E02C67573974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHub Issues (Jailbreak)/Pods-GitHub Issues (Jailbreak)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D001E124CD26CD03ABC3522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4747099345BC20BE01EAE19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitHub Issues/Pods-GitHub Issues-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C913A6D11E07A2610030FDF8 /* Pseudo-sign and Build Debian Package */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Pseudo-sign and Build Debian Package";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+		C913A7321E07A5F70030FDF8 /* Copy Library Image Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Library Image Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/jb_copyresources.sh\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C913A62B1E079FB30030FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A6391E079FB30030FDF8 /* ViewController.m in Sources */,
+				C913A6361E079FB30030FDF8 /* AppDelegate.m in Sources */,
+				C913A6331E079FB30030FDF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C913A68A1E07A10C0030FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A6B91E07A11E0030FDF8 /* GIIssuesCommentTableCell.m in Sources */,
+				C913A6B81E07A11E0030FDF8 /* GIIssueDetailTableController.m in Sources */,
+				C913A6BC1E07A11E0030FDF8 /* GIIssuesViewController.m in Sources */,
+				C913A6C21E07A11E0030FDF8 /* OCTClient_OCTClient_Issues.m in Sources */,
+				C913A6BF1E07A11E0030FDF8 /* GIResources.m in Sources */,
+				C913A6C41E07A11E0030FDF8 /* OCTIssueComment+New.m in Sources */,
+				C913A6BD1E07A11E0030FDF8 /* GIKeychainWrapper.m in Sources */,
+				C913A6BA1E07A11E0030FDF8 /* GIIssuesLabelView.m in Sources */,
+				C913A6C01E07A11E0030FDF8 /* GIRootViewController.m in Sources */,
+				C913A6C11E07A11E0030FDF8 /* GIUserViewController.m in Sources */,
+				C913A6C31E07A11E0030FDF8 /* OCTIssue+New.m in Sources */,
+				C913A6BB1E07A11E0030FDF8 /* GIIssuesTableViewCell.m in Sources */,
+				C913A6B71E07A11E0030FDF8 /* GIIssueComposeController.m in Sources */,
+				C913A6BE1E07A11E0030FDF8 /* GILoginController.m in Sources */,
+				C913A6B61E07A11E0030FDF8 /* GICommentComposeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C913A6CE1E07A2610030FDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C913A70F1E07A3E00030FDF8 /* GIIssuesCommentTableCell.m in Sources */,
+				C913A70D1E07A3E00030FDF8 /* GIIssueDetailTableController.m in Sources */,
+				C913A7151E07A3E00030FDF8 /* GIIssuesViewController.m in Sources */,
+				C913A7211E07A3E00030FDF8 /* OCTClient_OCTClient_Issues.m in Sources */,
+				C913A71B1E07A3E00030FDF8 /* GIResources.m in Sources */,
+				C913A7251E07A3E00030FDF8 /* OCTIssueComment+New.m in Sources */,
+				C913A7171E07A3E00030FDF8 /* GIKeychainWrapper.m in Sources */,
+				C913A7111E07A3E00030FDF8 /* GIIssuesLabelView.m in Sources */,
+				C913A71D1E07A3E00030FDF8 /* GIRootViewController.m in Sources */,
+				C913A71F1E07A3E00030FDF8 /* GIUserViewController.m in Sources */,
+				C913A7231E07A3E00030FDF8 /* OCTIssue+New.m in Sources */,
+				C913A7131E07A3E00030FDF8 /* GIIssuesTableViewCell.m in Sources */,
+				C913A70B1E07A3E00030FDF8 /* GIIssueComposeController.m in Sources */,
+				C913A7191E07A3E00030FDF8 /* GILoginController.m in Sources */,
+				C913A7091E07A3E00030FDF8 /* GICommentComposeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C913A63A1E079FB30030FDF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C913A63B1E079FB30030FDF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C913A63F1E079FB30030FDF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C913A6401E079FB30030FDF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C913A6441E079FB40030FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GitHub Issues Demo/GitHub Issues Demo.entitlements";
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "GitHub Issues Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matchstic.GitHub-Issues-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C913A6451E079FB40030FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "GitHub Issues Demo/GitHub Issues Demo.entitlements";
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				INFOPLIST_FILE = "GitHub Issues Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matchstic.GitHub-Issues-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C913A6951E07A10C0030FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9E0A36BDFBC72A869D3DC7 /* Pods-GitHub Issues.debug.xcconfig */;
+			buildSettings = {
+				BUILD_FOR_CYDIA = 0;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GitHubIssues;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C913A6961E07A10C0030FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA00D568D512998057750FC /* Pods-GitHub Issues.release.xcconfig */;
+			buildSettings = {
+				BUILD_FOR_CYDIA = 0;
+				DEVELOPMENT_TEAM = MWMJ98X6F2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GitHubIssues;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C913A6E81E07A2620030FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAD88FCDB3E180696041AD6 /* Pods-GitHub Issues (Jailbreak).debug.xcconfig */;
+			buildSettings = {
+				BUILD_FOR_CYDIA = 1;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(iOSOpenDevPath)/include/**",
+				);
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(iOSOpenDevPath)/lib/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = GitHubIssues;
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		C913A6E91E07A2620030FDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E6F769399050E2C16AD32D /* Pods-GitHub Issues (Jailbreak).release.xcconfig */;
+			buildSettings = {
+				BUILD_FOR_CYDIA = 1;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(iOSOpenDevPath)/include/**",
+				);
+				INSTALL_PATH = /usr/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(iOSOpenDevPath)/lib/**",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = GitHubIssues;
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		C929870F1E049F28002BDFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C92987101E049F28002BDFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C913A6431E079FB40030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C913A6441E079FB40030FDF8 /* Debug */,
+				C913A6451E079FB40030FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C913A6941E07A10C0030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C913A6951E07A10C0030FDF8 /* Debug */,
+				C913A6961E07A10C0030FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C913A6E71E07A2620030FDF8 /* Build configuration list for PBXNativeTarget "GitHub Issues (Jailbreak)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C913A6E81E07A2620030FDF8 /* Debug */,
+				C913A6E91E07A2620030FDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92986F51E049F28002BDFEB /* Build configuration list for PBXProject "Github Issues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C929870F1E049F28002BDFEB /* Debug */,
+				C92987101E049F28002BDFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92986F21E049F28002BDFEB /* Project object */;
+}

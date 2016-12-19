@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GitHub Issues (Jailbreak).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>GitHub Issues Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>GitHub Issues.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>Github Issues.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C913A62E1E079FB30030FDF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C913A64A1E079FF40030FDF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C913A68D1E07A10C0030FDF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C913A6D21E07A2610030FDF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C92986F91E049F28002BDFEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
