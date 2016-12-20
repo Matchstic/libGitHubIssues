@@ -31,11 +31,11 @@ to your Podfile.
 
 When using *libGitHubIssues* in a jailbroken package: 
 
-1. On your device, download and install *libGitHubIssues* from Cydia.
+1. On your device, download and install *libGitHubIssues* from Cydia (found on the BigBoss repository).
 2. Copy libGitHubIssues.dylib from <code>/usr/lib</code> to your development machine's <code>theos/lib</code> directory.
 3. Copy libGitHubIssues.h from <code>/usr/include/libGitHubIssues/</code> to your development machine's <code>theos/include</code> directory.
 4. Add <code>-lGitHubIssues</code> to your project makefile's LDFLAGS field
-5. Add a dependancy upon <code>com.matchstic.libGitHubIssues</code> to your project's control file.
+5. Add a dependancy upon <code>com.matchstic.libgithubissues</code> to your project's control file.
 
 ##Usage
 

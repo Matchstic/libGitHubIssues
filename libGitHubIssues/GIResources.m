@@ -102,6 +102,7 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyz0123456789";
 +(void)_setSuccessfulClient:(OCTClient*)client {
     // Force an unauthenticated login if OAuth2 token failed.
     if (!client.token || [client.token isEqualToString:@""]) {
+        NSLog(@"No token returned from GitHub...");
         client = nil;
     }
     

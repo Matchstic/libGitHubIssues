@@ -6,6 +6,21 @@
 //  Copyright © 2016 Matt Clarke. All rights reserved.
 //
 
+/*
+  Usage:
+  
+  #import <libGitHubIssues.h>
+
+  ...
+
+  GIRootViewController *rootModal = [[GIRootViewController alloc] init];
+
+  [GIRootViewController registerClientID:@"<client_id>" andSecret:@"<client_secret>"];
+  [GIRootViewController registerCurrentRepositoryName:@"<repo_name>" andOwner:@"<repo_owner>"];
+
+  [self presentViewController:rootModal animated:YES completion:nil];
+*/
+
 #import <UIKit/UIKit.h>
 
 @interface GIRootViewController : UINavigationController
