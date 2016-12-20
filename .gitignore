@@ -2,3 +2,4 @@ Pods
 LatestBuild
 Podfile.lock
 Packages/
+.dylib

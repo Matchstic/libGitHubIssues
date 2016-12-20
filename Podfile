@@ -15,5 +15,5 @@ target 'libGitHubIssues-(Jailbreak)' do
 end
 
 target 'libGitHubIssues Demo' do
-  pod 'libGitHubIssues', :path => './'
+  pod 'libGitHubIssues'
 end

@@ -1,4 +1,4 @@
-Package: com.matchstic.libGitHubIssues
+Package: com.matchstic.libgithubissues
 Name: libGitHubIssues
 Version: 0.0.1
 Description: Integrate GitHub Issues as a bugtracker

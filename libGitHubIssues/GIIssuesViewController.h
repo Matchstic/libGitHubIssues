@@ -18,6 +18,4 @@
 
 @property (nonatomic, strong) UIActivityIndicatorView *spinner;
 
--(instancetype)initWithClient:(id)client;
-
 @end

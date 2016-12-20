@@ -25,7 +25,7 @@ static GIIssuesTableViewCell *heightCheckerCell;
 
 @implementation GIIssuesViewController
 
--(instancetype)initWithClient:(OCTClient*)client {
+-(instancetype)init {
     self = [super initWithStyle:UITableViewStyleGrouped];
     
     if (self) {        
