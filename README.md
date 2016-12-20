@@ -1,6 +1,4 @@
 #libGitHubIssues
-Integrate GitHub Issues as a bugtracker
-
 Integrate GitHub's Issues system into your app to use as a bugtracker. A single public view controller is provided to present modally, and supports a native OAuth application flow for users to login. Existing issues can be viewed without the user needing to log in.
 
 ##Screenshots
@@ -33,11 +31,11 @@ to your Podfile.
 
 When using *libGitHubIssues* in a jailbroken package: 
 
-1. On your device, download and install libGitHubIssues from Cydia.
-2. Copy libGitHubIssues.dylib from /usr/lib to your development machine's theos/lib directory.
-3. Copy libGitHubIssues.h from /usr/include/libGitHubIssues/ to your development machine's theos/include directory.
-4. Add -lGitHubIssues to your project makefile's LDFLAGS field
-5. Add a dependancy upon com.matchstic.libGitHubIssues to your project's control file.
+1. On your device, download and install *libGitHubIssues* from Cydia.
+2. Copy libGitHubIssues.dylib from <code>/usr/lib</code> to your development machine's <code>theos/lib</code> directory.
+3. Copy libGitHubIssues.h from <code>/usr/include/libGitHubIssues/</code> to your development machine's <code>theos/include</code> directory.
+4. Add <code>-lGitHubIssues</code> to your project makefile's LDFLAGS field
+5. Add a dependancy upon <code>com.matchstic.libGitHubIssues</code> to your project's control file.
 
 ##Usage
 
@@ -48,7 +46,7 @@ When using *libGitHubIssues* in a jailbroken package:
     GIRootViewController *rootModal = [[GIRootViewController alloc] init];
 
     [GIRootViewController registerClientID:@"<client_id>" andSecret:@"<client_secret>"];
-    [GIRootViewController registerCurrentRepositoryName:@"Xen" andOwner:@"Matchstic"];
+    [GIRootViewController registerCurrentRepositoryName:@"<repo_name>" andOwner:@"<repo_owner>"];
 
     [self presentViewController:rootModal animated:YES completion:nil];
 
