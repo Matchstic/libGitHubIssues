@@ -45,8 +45,6 @@
 		C9F46DB31E07B66A00813F13 /* GIIssuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D951E07B66A00813F13 /* GIIssuesTableViewCell.m */; };
 		C9F46DB41E07B66A00813F13 /* GIIssuesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F46D961E07B66A00813F13 /* GIIssuesViewController.h */; };
 		C9F46DB51E07B66A00813F13 /* GIIssuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D971E07B66A00813F13 /* GIIssuesViewController.m */; };
-		C9F46DB61E07B66A00813F13 /* GIKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F46D981E07B66A00813F13 /* GIKeychainWrapper.h */; };
-		C9F46DB71E07B66A00813F13 /* GIKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D991E07B66A00813F13 /* GIKeychainWrapper.m */; };
 		C9F46DB81E07B66A00813F13 /* GILoginController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F46D9A1E07B66A00813F13 /* GILoginController.h */; };
 		C9F46DB91E07B66A00813F13 /* GILoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F46D9B1E07B66A00813F13 /* GILoginController.m */; };
 		C9F46DBA1E07B66A00813F13 /* GIResources.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F46D9C1E07B66A00813F13 /* GIResources.h */; };
@@ -153,8 +151,6 @@
 		C9F46D951E07B66A00813F13 /* GIIssuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesTableViewCell.m; path = libGitHubIssues/GIIssuesTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		C9F46D961E07B66A00813F13 /* GIIssuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIIssuesViewController.h; path = libGitHubIssues/GIIssuesViewController.h; sourceTree = SOURCE_ROOT; };
 		C9F46D971E07B66A00813F13 /* GIIssuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIIssuesViewController.m; path = libGitHubIssues/GIIssuesViewController.m; sourceTree = SOURCE_ROOT; };
-		C9F46D981E07B66A00813F13 /* GIKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIKeychainWrapper.h; path = libGitHubIssues/GIKeychainWrapper.h; sourceTree = SOURCE_ROOT; };
-		C9F46D991E07B66A00813F13 /* GIKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GIKeychainWrapper.m; path = libGitHubIssues/GIKeychainWrapper.m; sourceTree = SOURCE_ROOT; };
 		C9F46D9A1E07B66A00813F13 /* GILoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GILoginController.h; path = libGitHubIssues/GILoginController.h; sourceTree = SOURCE_ROOT; };
 		C9F46D9B1E07B66A00813F13 /* GILoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GILoginController.m; path = libGitHubIssues/GILoginController.m; sourceTree = SOURCE_ROOT; };
 		C9F46D9C1E07B66A00813F13 /* GIResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIResources.h; path = libGitHubIssues/GIResources.h; sourceTree = SOURCE_ROOT; };
@@ -478,8 +474,6 @@
 		C9F46DC91E07B69300813F13 /* Backend */ = {
 			isa = PBXGroup;
 			children = (
-				C9F46D981E07B66A00813F13 /* GIKeychainWrapper.h */,
-				C9F46D991E07B66A00813F13 /* GIKeychainWrapper.m */,
 				C9F46D9C1E07B66A00813F13 /* GIResources.h */,
 				C9F46D9D1E07B66A00813F13 /* GIResources.m */,
 			);
@@ -564,7 +558,6 @@
 				C9F46DAC1E07B66A00813F13 /* GIIssueDetailTableController.h in Headers */,
 				C9F46DAE1E07B66A00813F13 /* GIIssuesCommentTableCell.h in Headers */,
 				C9F46DC01E07B66A00813F13 /* OCTClient_OCTClient_Issues.h in Headers */,
-				C9F46DB61E07B66A00813F13 /* GIKeychainWrapper.h in Headers */,
 				C9F46DBA1E07B66A00813F13 /* GIResources.h in Headers */,
 				C9F46DC21E07B66A00813F13 /* OCTIssue+New.h in Headers */,
 				C9F46DB41E07B66A00813F13 /* GIIssuesViewController.h in Headers */,
@@ -877,7 +870,6 @@
 				C9F46DC11E07B66A00813F13 /* OCTClient_OCTClient_Issues.m in Sources */,
 				C9F46DBB1E07B66A00813F13 /* GIResources.m in Sources */,
 				C9F46DC51E07B66A00813F13 /* OCTIssueComment+New.m in Sources */,
-				C9F46DB71E07B66A00813F13 /* GIKeychainWrapper.m in Sources */,
 				C9F46DB11E07B66A00813F13 /* GIIssuesLabelView.m in Sources */,
 				C9F46DBD1E07B66A00813F13 /* GIRootViewController.m in Sources */,
 				C9F46DBF1E07B66A00813F13 /* GIUserViewController.m in Sources */,
@@ -1038,9 +1030,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DA5BC535A542541D9FF1050 /* Pods-libGitHubIssues.debug.xcconfig */;
 			buildSettings = {
-				BUILD_FOR_CYDIA = 0;
 				DEVELOPMENT_TEAM = MWMJ98X6F2;
 				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BUILD_FOR_CYDIA=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1056,9 +1052,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F4A61D25DEE708B80C36C5D /* Pods-libGitHubIssues.release.xcconfig */;
 			buildSettings = {
-				BUILD_FOR_CYDIA = 0;
 				DEVELOPMENT_TEAM = MWMJ98X6F2;
 				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BUILD_FOR_CYDIA=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1085,6 +1085,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BUILD_FOR_CYDIA=1",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1127,6 +1132,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BUILD_FOR_CYDIA=1",
+				);
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				HEADER_SEARCH_PATHS = (

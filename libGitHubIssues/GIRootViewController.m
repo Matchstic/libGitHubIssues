@@ -32,29 +32,15 @@
     
     [self.navigationBar setBarStyle:UIBarStyleDefault];
     
-    // If no pre-existing OAuth session in Keychain, use an unathenticated user.
-    // Else, make use of the current session.
+    GIIssuesViewController *table = [[GIIssuesViewController alloc] init];
+    [self setViewControllers:@[table] animated:NO];
     
-    OCTClient *client = [GIResources _getCurrentClient];
-    [self _loadFromExistingLogin:client];
+    UIBarButtonItem *cancel = [[UIBarButtonItem alloc] initWithTitle:@"Close" style:UIBarButtonItemStylePlain target:self action:@selector(didClickCancel:)];
+    table.navigationItem.leftBarButtonItem = cancel;
 }
 
--(void)loadFromNewLogin:(OCTClient*)client {    
-    [self _loadFromExistingLogin:client];
-}
-
--(void)_loadLoginControllerWith2FA:(BOOL)with2FA {
-    GILoginController *table = [[GILoginController alloc] init];
-    if (with2FA) [table _show2FAWithAnimation:NO];
-    
-    [self setViewControllers:@[table] animated:YES];
-}
-
--(void)_loadFromExistingLogin:(OCTClient*)client {
-    NSLog(@"Loading from existing login...");
-    
-    GIIssuesViewController *table = [[GIIssuesViewController alloc] initWithClient:nil];
-    [self setViewControllers:@[table] animated:YES];
+-(void)didClickCancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
