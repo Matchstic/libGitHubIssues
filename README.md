@@ -29,6 +29,8 @@ to your Podfile.
 
 ###Jailbroken Package
 
+Please note that *libGitHubIssues* is not yet available via a default Cydia repository, due to cirumstances beyond my control. This should be resolved soon. In the meantime, please download a copy in a .deb format from the Releases tab.
+
 When using *libGitHubIssues* in a jailbroken package: 
 
 1. On your device, download and install *libGitHubIssues* from Cydia (found on the BigBoss repository).
